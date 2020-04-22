@@ -1,0 +1,31 @@
+@import '../../../styles/colors';
+@import '../../../styles/common-styles';
+
+.app-bar-mobile {
+  // sass-lint:disable-block class-name-format
+  .MuiPaper-root {
+    z-index: 1500;
+  }
+
+  &__menu-container {
+    .MuiPaper-root {
+      background-color: $color-secondary;
+      color: $color-text-light-black;
+      left: 0 !important;
+      position: absolute;
+      top: 50px !important;
+    }
+  }
+
+  &__link {
+    a {
+      color: $color-text-light-secondary;
+      margin: $margin-tertiary;
+      text-decoration: none;
+
+      &:visited {
+        color: $color-text-light-secondary;
+      }
+    }
+  }
+}

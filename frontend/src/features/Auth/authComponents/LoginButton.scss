@@ -1,0 +1,14 @@
+@import '../../../styles/common-styles';
+
+.login-button {
+  &__login-underway {
+    &__container {
+      align-items: center;
+      display: flex;
+    }
+
+    &__text {
+      padding-right: $padding-primary;
+    }
+  }
+}

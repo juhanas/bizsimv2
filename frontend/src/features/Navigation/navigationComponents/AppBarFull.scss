@@ -1,0 +1,37 @@
+@import '../../../styles/common-styles';
+@import '../../../styles/colors';
+
+.app-bar-full {
+  text-align: left;
+
+  &__container {
+    flex-direction: row !important;
+  }
+
+  &__title {
+    margin: auto $margin-secondary !important;
+    text-align: center;
+
+    a {
+      color: $color-text-light-primary;
+      margin: $margin-tertiary;
+      text-decoration: none;
+
+      &:visited {
+        color: $color-text-light-primary;
+      }
+    }
+  }
+
+  &__link {
+    a {
+      color: $color-text-light-primary;
+      margin: $margin-tertiary;
+      text-decoration: none;
+
+      &:visited {
+        color: $color-text-light-primary;
+      }
+    }
+  }
+}

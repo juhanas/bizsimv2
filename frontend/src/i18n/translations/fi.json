@@ -1,0 +1,36 @@
+{
+  "appBar.title": "BizSim",
+  "appBar.navigation.home": "Etusivu",
+  "appBar.navigation.about": "Tietoa",
+  "appBar.navigation.games": "Pelit",
+  "appBar.navigation.login": "Sisäänkirjautuminen",
+
+  "games.title": "Pelit",
+
+  "gamesEmptyComponent.message": "Yhtään peliä ei ole käynnissä. Tarkista myöhemmin uudelleen.",
+
+  "gameCard.capacity.title": "Kapasiteetti",
+  "gameCard.demand.title": "Kysyntä",
+  "gameCard.gameLength.title": "Pelin pituus",
+  "gameCard.timePerDay.title": "Päivän pituus",
+  "gameCard.joinGame.submitButton.title": "Liity peliin",
+
+  "home.lander.text": "Tämä on BizSim-liiketaloussimulaattori",
+
+  "joinGameModal.title": "Liity peliin",
+  "joinGameModal.companyNameField.title": "Yrityksen nimi",
+  "joinGameModal.companyNameField.errorMessage": "Yrityksen nimen minimipituus on 5 merkkiä",
+  "joinGameModal.submitButton.title": "Liity peliin",
+  "joinGameModal.cancelButton.title": "Peruuta",
+
+  "login.loginFormTitle.title": "Kirjaudu sisään",
+  "login.loginButton.text": "Kirjaudu sisään",
+  "login.loginButton.loginUnderwayText": "Kirjaudutaan sisään",
+  "login.loginFormFields.usernameText": "Käyttäjänimi",
+  "login.loginFormFields.passwordText": "Salasana",
+  "login.loginFormFields.loginErrorText": "Virheellinen käyttäjänimi tai salasana",
+  "login.loginFormFields.rememberMeText": "Muista minut",
+  "login.loginSecondaryActions.forgotPassword.text": "Unohtuiko salasana",
+  "login.loginSecondaryActions.noAccountYet.text": "Puuttuuko käyttäjätunnus? Luo tunnus",
+  "login.loginSuccess.title": "Sisäänkirjautuminen onnistui"
+}

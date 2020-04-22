@@ -1,0 +1,7 @@
+@import '../../../styles/common-styles';
+
+.games-component {
+  &__games-container {
+    padding-top: $padding-primary;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../../../styles/common-styles';
+@import '../../../styles/colors';
+
+.language-selector {
+  // sass-lint:disable-block class-name-format
+  display: flex;
+  margin-left: auto;
+
+  &.with-title {
+    margin-left: 8px;
+
+    .MuiButton-label {
+      color: $color-text-light-secondary !important;
+    }
+  }
+
+  .MuiButton-label {
+    color: $color-text-light-primary !important;
+  }
+
+  &__menu-container {
+    text-transform: uppercase;
+
+    .MuiPaper-root {
+      background-color: $color-secondary;
+      color: $color-text-light-black;
+      position: absolute;
+      right: 0 !important;
+      top: 50px !important;
+    }
+  }
+
+  &__title {
+    align-self: center;
+  }
+}

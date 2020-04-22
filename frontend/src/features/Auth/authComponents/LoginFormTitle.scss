@@ -1,0 +1,31 @@
+@import '../../../styles/common-styles';
+@import '../../../styles/colors';
+
+.login-form-title {
+  &__avatar {
+    background-color: $color-fail !important;
+    margin: $margin-tertiary auto;
+  }
+
+  &__menu-container {
+    // sass-lint:disable-block class-name-format
+    .MuiPaper-root {
+      background-color: $color-secondary;
+      color: $color-text-light-black;
+      left: 0 !important;
+      position: absolute;
+      top: 50px !important;
+    }
+  }
+
+  &__link {
+    a {
+      margin: $margin-tertiary;
+      text-decoration: none;
+
+      &:visited {
+        color: $color-text-light-secondary;
+      }
+    }
+  }
+}

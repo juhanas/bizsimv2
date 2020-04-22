@@ -1,0 +1,13 @@
+@import '../../../styles/common-styles';
+@import '../../../styles/colors';
+
+.game-card {
+  border: 1px solid $color-primary;
+  border-radius: 10px;
+  margin: auto;
+  padding: $padding-secondary;
+
+  &__avatar {
+    margin: auto;
+  }
+}

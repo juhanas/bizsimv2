@@ -1,0 +1,19 @@
+@import '../../../styles/common-styles';
+
+.game-details-table-row {
+  padding-bottom: $padding-secondary;
+  text-align: left;
+
+  &__cell {
+    border: 0 !important;
+    width: 50%;
+  }
+
+  &__title {
+    text-align: right;
+  }
+
+  &__value {
+    text-align: left;
+  }
+}

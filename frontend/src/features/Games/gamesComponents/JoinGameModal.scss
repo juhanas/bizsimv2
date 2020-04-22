@@ -1,0 +1,30 @@
+@import '../../../styles/common-styles';
+@import '../../../styles/colors';
+
+.join-game-modal {
+  &__modal {
+    width: 100%;
+  }
+
+  &__paper {
+    padding: $padding-secondary;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__container {
+    background: $color-background-light-primary;
+    margin: auto;
+    width: 500px;
+
+    &__game-name {
+      padding-left: $padding-secondary;
+    }
+
+    &__submit-button {
+      margin-bottom: $padding-secondary !important;
+    }
+  }
+}

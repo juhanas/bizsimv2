@@ -1,0 +1,14 @@
+@import '../../../styles/common-styles';
+@import '../../../styles/colors';
+
+.login-success {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: $margin-secondary;
+
+  &__avatar {
+    background-color: $color-success !important;
+    margin: $margin-tertiary;
+  }
+}
